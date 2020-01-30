@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rocketseat - Starter - Exercício 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <nav>
+          <a href="index.html" class="btn-back">VOLTAR</a>
+        </nav>
+        <article>
+          <h6>2º exercício</h6>
+          <p>
+            Crie uma tela com um input que deve receber o nome de um usuário
+            no Github. Após digitar o nome do usuário e clicar no botão buscar a
+            aplicação deve buscar pela API do Github (conforme URL abaixo) os
+            dados de repositórios do usuário e mostrá-los em tela: URL de
+            exemplo: https://api.github.com/users/diego3g/repos Basta alterar
+            "diego3g" pelo nome do usuário.
+          </pre>
+        </article>
+        <form action="">
+          <label for="user">Digite um usuário do Github:</label>
+          <input type="text" name="user" id="user" />
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="list"></div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="ex2.js"></script>
+  </body>
+</html>

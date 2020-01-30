@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rocketseat - Starter - Exercício 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <nav>
+          <a href="index.html" class="btn-back">VOLTAR</a>
+        </nav>
+        <article>
+          <h6>3º exercício</h6>
+          <p>
+            A partir do resultado do exemplo anterior adicione um indicador de
+            carregamento em tela no lugar da lista apenas enquanto a requisição
+            estiver acontecendo:
+            <small>
+              Além disso, adicione uma mensagem de erro em tela caso o usuário
+              no Github não exista. Dica: Quando o usuário não existe, a
+              requisição irá cair no .catch com código de erro 404.
+            </small>
+          </p>
+        </article>
+        <form action="">
+          <label for="user">Digite uma idade:</label>
+          <input type="text" name="user" id="user" />
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="list"></div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="ex3.js"></script>
+  </body>
+</html>
